@@ -436,6 +436,7 @@ dialog::backdrop{background:#07121bcc;backdrop-filter:blur(4px)}
 .visual-topic-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .24s ease}
 .visual-topic-image.scientific{background:#fff;padding:14px}
 .visual-topic-image.scientific img{object-fit:contain}
+.visual-topic.mountain-topic .visual-topic-image.scientific,.visual-topic.carbon-topic .visual-topic-image.scientific,.visual-topic.mars-topic .visual-topic-image.scientific{height:240px}
 .visual-topic:hover .visual-topic-image:not(.scientific) img{transform:scale(1.025)}
 .visual-topic-copy{padding:21px 0 0}
 .visual-topic-copy>.eyebrow{font-size:.8125rem;line-height:1.7;letter-spacing:.5px;color:var(--accent);margin-bottom:10px}
@@ -716,6 +717,9 @@ dialog::backdrop{background:#07121bcc;backdrop-filter:blur(4px)}
 .method-lab-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .method-lab-pair img{aspect-ratio:3/4}
 .method-preparation-photo{object-position:50% 65%}
+.method-lab-pair.samples-in-progress{grid-template-columns:16fr 9fr}
+.method-lab-pair.samples-in-progress img{aspect-ratio:4/3}
+.method-lab-pair.samples-in-progress .method-preparation-photo{aspect-ratio:3/4}
 .method-visual .published-figure{margin:0}
 .method-visual .published-figure img{max-height:320px}
 .method-visual .figure-source-label{display:none}
