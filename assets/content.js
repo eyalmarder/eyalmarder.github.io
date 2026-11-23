@@ -1296,15 +1296,15 @@ window.ATLAS_CONTENT = {
       }
     },
     "rockies-three-panel": {
-      "src": "assets/published/rockies-three-panel.svg",
+      "src": "assets/published/rockies-three-panel.webp",
       "title": "From river profiles to regional landscape history",
       "alt": "Three published Colorado Rockies panels, left to right: river chi–elevation profiles with knickpoints; a drainage-basin map with erosion rates and terrace incision rates; and a map of glacial, relict fluvial, and rejuvenated fluvial terrain.",
       "caption": "Left: river profiles distinguish reaches above and below knickpoints. Center: the drainage map locates knickpoints, terraces, and basin-averaged erosion measurements, with an inset comparing erosion and incision rates. Right: glacial, relict fluvial, and rejuvenated fluvial terrain summarize the regional landscape history. CRM denotes the Colorado Rocky Mountains, HP the High Plains, and RGR the Rio Grande Rift. Published panels are arranged from Figures 3B, 3A, and 4A; their original labels, legends, and scales are retained.",
       "credit": "Marder et al. (2025) · GSA Today",
       "sourceId": "marder-2025-rockies-awaken",
       "scientific": true,
-      "width": 1905,
-      "height": 1338,
+      "width": 3000,
+      "height": 2108,
       "id": "rockies-three-panel",
       "rights": {
         "copyright": "© 2025 The Authors",
