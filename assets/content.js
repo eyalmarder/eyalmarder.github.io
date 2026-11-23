@@ -721,7 +721,7 @@ window.ATLAS_CONTENT = {
         "copyright": "© 2025 The Authors",
         "label": "GSA reuse terms · CC BY-NC article",
         "url": "https://www.geosociety.org/publications/policies/copyright-information",
-        "note": "The published article identifies a CC BY-NC license. This site reproduces its final regional-summary figure and a map excerpt from that same figure; GSA also grants reuse of a single figure under its published permissions policy. The High Plains Ogallala reconstruction is after Leonard (2002), as credited in the original caption. Isolated panel letters are hidden; scientific annotations and data are retained."
+        "note": "The published article identifies a CC BY-NC license. This site reproduces the final regional-summary figure and a three-panel arrangement of Figures 3B (river profiles), 3A (erosion and incision map), and 4A (geomorphic zones). The High Plains Ogallala reconstruction in the regional-summary figure is after Leonard (2002), as credited in the original caption. Panel placement and uniform size are adjusted for the website, and isolated panel letters are omitted; scientific artwork, labels, legends, and scales are retained."
       },
       "guide": {
         "question": "How do different parts of an old mountain belt preserve landscape history?",
@@ -889,7 +889,7 @@ window.ATLAS_CONTENT = {
         "copyright": "© 2018 Elsevier B.V.",
         "label": "Elsevier author reuse rights",
         "url": "https://www.elsevier.com/about/policies-and-standards/copyright",
-        "note": "The original schematic is presented in this author’s research overview under Elsevier’s retained rights for authors to reuse their figures in new works."
+        "note": "Published Figure 2A (geomorphic zones) and Figure 12 (uplift schematic) are presented in this author’s research overview under Elsevier’s retained author reuse rights. Figure 2A retains the published labels and inset: imagery by Google Earth; geological sketch after Shaliv and Mimran (1991)."
       }
     },
     "biodiversity-fig1a": {
@@ -1243,7 +1243,7 @@ window.ATLAS_CONTENT = {
         "copyright": "© 2025 The Authors",
         "label": "GSA reuse terms · CC BY-NC article",
         "url": "https://www.geosociety.org/publications/policies/copyright-information",
-        "note": "The published article identifies a CC BY-NC license. This site reproduces its final regional-summary figure and a map excerpt from that same figure; GSA also grants reuse of a single figure under its published permissions policy. The High Plains Ogallala reconstruction is after Leonard (2002), as credited in the original caption. Isolated panel letters are hidden; scientific annotations and data are retained."
+        "note": "The published article identifies a CC BY-NC license. This site reproduces the final regional-summary figure and a three-panel arrangement of Figures 3B (river profiles), 3A (erosion and incision map), and 4A (geomorphic zones). The High Plains Ogallala reconstruction in the regional-summary figure is after Leonard (2002), as credited in the original caption. Panel placement and uniform size are adjusted for the website, and isolated panel letters are omitted; scientific artwork, labels, legends, and scales are retained."
       },
       "guide": {
         "question": "How do river measurements reveal regional landscape rejuvenation?",
@@ -1293,6 +1293,82 @@ window.ATLAS_CONTENT = {
             ]
           }
         ]
+      }
+    },
+    "rockies-three-panel": {
+      "src": "assets/published/rockies-research-panels.png",
+      "title": "From river profiles to regional landscape history",
+      "alt": "Three published Colorado Rockies panels, left to right: river chi–elevation profiles with knickpoints; a drainage-basin map with erosion rates and terrace incision rates; and a map of glacial, relict fluvial, and rejuvenated fluvial terrain.",
+      "caption": "Left: river profiles distinguish reaches above and below knickpoints. Center: the drainage map locates knickpoints, terraces, and basin-averaged erosion measurements, with an inset comparing erosion and incision rates. Right: glacial, relict fluvial, and rejuvenated fluvial terrain summarize the regional landscape history. CRM denotes the Colorado Rocky Mountains, HP the High Plains, and RGR the Rio Grande Rift. Published panels are arranged from Figures 3B, 3A, and 4A; their original labels, legends, and scales are retained.",
+      "credit": "Marder et al. (2025) · GSA Today",
+      "sourceId": "marder-2025-rockies-awaken",
+      "scientific": true,
+      "width": 3000,
+      "height": 2108,
+      "rendering": "raster",
+      "id": "rockies-three-panel",
+      "rights": {
+        "copyright": "© 2025 The Authors",
+        "label": "GSA reuse terms · CC BY-NC article",
+        "url": "https://www.geosociety.org/publications/policies/copyright-information",
+        "note": "The published article identifies a CC BY-NC license. This site reproduces the final regional-summary figure and a three-panel arrangement of Figures 3B (river profiles), 3A (erosion and incision map), and 4A (geomorphic zones). The High Plains Ogallala reconstruction in the regional-summary figure is after Leonard (2002), as credited in the original caption. Panel placement and uniform size are adjusted for the website, and isolated panel letters are omitted; scientific artwork, labels, legends, and scales are retained."
+      },
+      "guide": {
+        "question": "How do river profiles and erosion measurements reveal different stages of landscape adjustment?",
+        "steps": [
+          {
+            "label": "River profiles",
+            "title": "Read the profiles on the left.",
+            "text": "Red triangles mark knickpoints. Yellow reaches lie below them and blue reaches above; pale cyan marks potentially glaciated reaches. The inset stacks profiles relative to the mountain front. The chi transformation stretches low-drainage-area reaches, so their horizontal lengths are not map distances.",
+            "focus": [
+              0.9,
+              5.8,
+              32,
+              89.7
+            ]
+          },
+          {
+            "label": "Erosion and incision",
+            "title": "Locate the measurements in the center.",
+            "text": "The map shows knickpoints, terrace locations, and basins with beryllium-10 erosion measurements. The inset compares basin-averaged erosion rates in blue with channel incision rates in yellow on a logarithmic rate axis. The pale cyan area marks the Last Glacial Maximum extent.",
+            "focus": [
+              35.4,
+              3.7,
+              31.1,
+              89.7
+            ]
+          },
+          {
+            "label": "Geomorphic zones",
+            "title": "Compare the landscape zones on the right.",
+            "text": "Glacial terrain, relict fluvial terrain, and rejuvenated fluvial terrain preserve different stages of landscape history. The dashed line marks the north–south projection from 0 to 300 km; CRM, HP, and RGR denote the Colorado Rocky Mountains, High Plains, and Rio Grande Rift.",
+            "focus": [
+              68.9,
+              0,
+              30.1,
+              99
+            ]
+          }
+        ]
+      }
+    },
+    "jordan-fig2a": {
+      "src": "assets/published/jordan-fig2a.png",
+      "title": "The Ghor, Zor, and Lower Jordan River",
+      "alt": "Published Google Earth view of the Lower Jordan valley labeling the broad Ghor valley floor, narrower Zor floodplain, mid-terraces, and Lower Jordan River, with a geological cross-section inset.",
+      "caption": "The broad Ghor valley floor contains a narrower floodplain, labeled Zor in the paper, alongside mid-terraces and the Lower Jordan River (LJR). The inset shows the western escarpment and valley stratigraphy. Published Figure 2A; imagery by Google Earth, with the geological sketch after Shaliv and Mimran (1991).",
+      "credit": "Marder et al. (2018) · Google Earth imagery",
+      "sourceId": "marder-2018-jordan",
+      "scientific": true,
+      "width": 2400,
+      "height": 873,
+      "rendering": "raster",
+      "id": "jordan-fig2a",
+      "rights": {
+        "copyright": "© 2018 Elsevier B.V.",
+        "label": "Elsevier author reuse rights",
+        "url": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "note": "Published Figure 2A (geomorphic zones) and Figure 12 (uplift schematic) are presented in this author’s research overview under Elsevier’s retained author reuse rights. Figure 2A retains the published labels and inset: imagery by Google Earth; geological sketch after Shaliv and Mimran (1991)."
       }
     }
   }

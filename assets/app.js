@@ -160,10 +160,12 @@
       dialog.setAttribute('aria-labelledby','figure-dialog-title');document.body.append(dialog);
       dialog.querySelector('button').addEventListener('click',()=>dialog.close());
       dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+      // Release the enlarged artwork once the viewer closes, including Escape.
+      dialog.addEventListener('close',()=>{if(!dialog.open)dialog.querySelector('img').removeAttribute('src');});
     }
     dialog.querySelector('h2').textContent=topic.label;
     dialog.classList.toggle('project-preview-dialog',Boolean(topic.figure.projectPreview));
-    const img=dialog.querySelector('img');img.src=topic.figure.src;img.alt=topic.figure.alt;
+    const img=dialog.querySelector('img');img.decoding='async';img.src=topic.figure.src;img.alt=topic.figure.alt;
     const caption=dialog.querySelector('figcaption');
     caption.textContent=[topic.figure.status,topic.figure.caption].filter(Boolean).join('\n\n');
     const source=byId.get(topic.figure.sourceId);
