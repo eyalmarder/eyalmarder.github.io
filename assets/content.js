@@ -389,6 +389,15 @@ window.ATLAS_CONTENT = {
         "methods"
       ],
       "summary": "Coupled landscape and biological evolution modeling examines how mountain uplift and changing topography can shape biodiversity through time.",
+      "assessmentCitation": {
+        "publisher": "UNEP",
+        "year": 2026,
+        "title": "Mountains in Motion: Global Linkages from Ridge to River",
+        "url": "https://www.grida.no/publications/3014",
+        "pdfUrl": "https://gridarendal-website-live.s3.amazonaws.com/production/documents/%3As_document/2352/original/Mountains_in_motion_LRes.pdf?1773836705=#page=19",
+        "page": 15,
+        "summary": "The assessment cites this study’s finding that mountain building can generate biodiversity in highlands and neighboring basins."
+      },
       "type": "article",
       "detailPath": "publications/marder-2025-biodiversity.html"
     },

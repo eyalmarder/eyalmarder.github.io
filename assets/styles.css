@@ -137,6 +137,11 @@ h2{font-family:var(--headline);font-weight:500;font-size:clamp(2rem,3vw,3.2rem);
 .publication-citation{font-size:.875rem;color:var(--muted);line-height:1.7;margin-bottom:10px}
 .publication-citation em{color:var(--ink);font-style:normal}
 .publication-summary{font-size:.94rem;line-height:1.8;color:var(--muted);margin:10px 0 14px;max-width:850px}
+.assessment-citation{border-left:3px solid var(--accent);padding:3px 0 3px 18px;margin:20px 0;max-width:850px}
+.assessment-citation p{font-size:1rem;line-height:1.75;color:var(--muted);margin:0}
+.assessment-citation .assessment-label{font-size:.875rem;font-weight:600;color:var(--ink);margin-bottom:5px}
+.assessment-citation a{color:var(--ink);text-decoration-color:var(--faint);text-underline-offset:4px}
+.assessment-citation a:hover{color:var(--accent)}
 .publication-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin-top:14px}
 .publication-actions a,.publication-actions button{border:0;border-bottom:1px solid var(--line);background:transparent;font-size:.8rem;text-decoration:none;padding:3px 0;color:var(--ink);line-height:1.5}
 .publication-actions a:hover,.publication-actions button:hover{border-color:var(--accent);color:var(--accent)}
