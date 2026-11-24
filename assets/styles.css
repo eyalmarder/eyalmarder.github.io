@@ -771,24 +771,28 @@ dialog::backdrop{background:#07121bcc;backdrop-filter:blur(4px)}
 
 /* Research coverage stays grouped by study, with compact links on research pages. */
 .press-page{padding-bottom:38px}
+.press-section{scroll-margin-top:24px}
+.press-section+.press-section{margin-top:42px}
+.press-section>h2{font-family:var(--headline);font-size:1.4rem;font-weight:500;letter-spacing:-.02em;margin:0 0 22px}
+.press-assessment-summary{font-size:1rem;line-height:1.8;color:var(--muted);margin:10px 0 16px}
 .press-study{display:grid;grid-template-columns:minmax(180px,.7fr) minmax(0,2fr);gap:36px;padding:26px 0;border-top:1px solid var(--line);scroll-margin-top:24px}
 .press-study-heading>.eyebrow{font-size:.875rem;line-height:1.6;margin-bottom:10px}
-.press-study-heading h2{font-family:var(--serif);font-weight:400;font-size:1.9rem;letter-spacing:-.025em;line-height:1.18;margin:0 0 12px}
+.press-study-heading h3{font-family:var(--serif);font-weight:400;font-size:1.9rem;letter-spacing:-.025em;line-height:1.18;margin:0 0 12px}
 .press-study-heading>.text-link{display:inline-flex;align-items:center;min-height:44px;padding:4px 0}
 .press-stories{list-style:none;padding:0;margin:0;min-width:0}
 .press-stories>li+li{border-top:1px solid var(--line);margin-top:16px;padding-top:18px}
 .press-meta{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 20px;color:var(--muted);font-size:.875rem;line-height:1.6}
 .press-meta time{white-space:nowrap}
-.press-story h3{font-family:var(--headline);font-size:1.0625rem;font-weight:500;letter-spacing:-.01em;line-height:1.5;margin:6px 0 0}
-.press-story h3 a{display:inline-block;min-height:44px;padding:4px 0;text-decoration-color:var(--line);text-underline-offset:4px;text-decoration-thickness:1px}
-.press-story h3 a:hover{color:var(--accent);text-decoration-color:currentColor}
+.press-story :is(h3,h4){font-family:var(--headline);font-size:1.0625rem;font-weight:500;letter-spacing:-.01em;line-height:1.5;margin:6px 0 0}
+.press-story :is(h3,h4) a{display:inline-block;min-height:44px;padding:4px 0;text-decoration-color:var(--line);text-underline-offset:4px;text-decoration-thickness:1px}
+.press-story :is(h3,h4) a:hover{color:var(--accent);text-decoration-color:currentColor}
 .paper-press{border-top:1px solid var(--line);margin-top:26px;padding-top:20px}
 .paper-press h2{font-size:1.3rem;letter-spacing:-.02em;margin-bottom:4px}
 .paper-press-links{list-style:none;display:flex;flex-wrap:wrap;gap:0 22px;padding:0;margin:0 0 8px}
 .paper-press-links a{display:inline-flex;align-items:center;min-height:44px;font-size:1rem;line-height:1.5;text-decoration-color:var(--faint);text-underline-offset:4px}
 .related-output-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:5px}
 @media(max-width:1000px){.press-study{grid-template-columns:minmax(155px,.7fr) minmax(0,1.8fr);gap:24px}.press-meta{display:block}.press-meta time{display:block;margin-top:2px}}
-@media(max-width:600px){.press-study{grid-template-columns:1fr;gap:15px;padding:22px 0}.press-study-heading h2{font-size:1.7rem;display:inline;margin-right:18px}.press-study-heading>.eyebrow{margin-bottom:8px}.press-study-heading>.text-link{vertical-align:middle}.press-story h3{font-size:1rem}.press-stories>li+li{margin-top:12px;padding-top:16px}}
+@media(max-width:600px){.press-study{grid-template-columns:1fr;gap:15px;padding:22px 0}.press-study-heading h3{font-size:1.7rem;display:inline;margin-right:18px}.press-study-heading>.eyebrow{margin-bottom:8px}.press-study-heading>.text-link{vertical-align:middle}.press-story :is(h3,h4){font-size:1rem}.press-stories>li+li{margin-top:12px;padding-top:16px}}
 @media print{.press-study{break-inside:avoid;grid-template-columns:1fr 2fr;gap:24px}.press-story a{color:inherit}.press-study-heading>.text-link,.paper-press{display:none}}
 /* Deliberately selected project previews, separate from the published figure atlas. */
 .project-figure{min-width:0;margin:0 0 26px;max-width:950px}
